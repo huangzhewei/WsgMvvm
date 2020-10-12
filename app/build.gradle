@@ -31,17 +31,14 @@ android {
     }
     signingConfigs {
         config {
-            keyAlias 'wsg'
-            keyPassword 'woshizhu'
-            storeFile file('/Users/wushaoge/Documents/keystore')
-            storePassword 'woshizhu'
+
         }
     }
 
     buildTypes {
         debug {
             minifyEnabled false
-            signingConfig signingConfigs.config
+//            signingConfig signingConfigs.config
             debuggable true
         }
         release {
